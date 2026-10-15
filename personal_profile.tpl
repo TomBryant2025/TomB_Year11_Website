@@ -4,6 +4,15 @@
   <link rel="stylesheet" href="/static/website_style.css">
 </head>
 <body>
+  
+
+<nav>
+        <a href="/">Personal profile</a>
+        <a href="/What is problematic social media use">About</a>
+        <a href="/Digital Wellbeing issues affecting New Zealand teens">Contact</a>
+        <a href="/Impacts and solutions">Contact</a>
+    </nav>
+
 
 <h1>Greetings, My name is Tom and Welcome to my personal profile</h1>
 <p>Hi, I’m Tom Bryant, a year 11 student at Sacred Heart college who is currently studying computer science. For a project, I was tasked with programming a website about Social media use in New Zealand today.
@@ -45,25 +54,10 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
+/* Number text (1/5 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #ff0000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -86,16 +80,6 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -109,19 +93,31 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
+  <img src="static/TB2205026.jpg" style="width:25%">
   <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
+  <img src="static/TB2205025.jpg" style="width:25%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
+  <img src="static/TB2205024.jpg" style="width:25%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="static/TB2205023.jpg" style="width:25%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="static/TB2205022.jpg" style="width:25%">
   <div class="text">Caption Three</div>
 </div>
 
@@ -131,11 +127,7 @@ img {vertical-align: middle;}
 </div>
 <br>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+
 
 <script>
 let slideIndex = 1;
@@ -164,7 +156,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+  
 </script>
+
 
 </body>
 </html>

@@ -59,3 +59,17 @@ p {
 
 .prev { left: 10px; }
 .next { right: 10px; }
+
+
+nav {
+    margin-bottom: 20px;
+    background: #1dffe1;
+    padding: 10px;
+    height: 30px;
+}
+
+nav a {
+    color: rgb(255, 11, 11);
+    text-decoration: none;
+    margin-right: 15px;
+}
