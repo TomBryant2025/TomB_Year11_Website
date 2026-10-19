@@ -65,26 +65,24 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">1 / 5</div>
   <img src="static/TB2205026.jpg" style="width:25%">
-  border-radius: 50px;
-  <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">2 / 5</div>
   <img src="static/TB2205025.jpg" style="width:25%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
+  <div class="numbertext">3 / 5</div>
   <img src="static/TB2205024.jpg" style="width:25%">
   <div class="text">Caption Three</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">4 / 4</div>
+  <div class="numbertext">4 / 5</div>
   <img src="static/TB2205023.jpg" style="width:25%">
   <div class="text">Caption Three</div>
 </div>
