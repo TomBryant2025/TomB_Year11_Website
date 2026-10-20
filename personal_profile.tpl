@@ -14,42 +14,45 @@
   </nav>
 
 
+<div class="content-row">
 
+  <h1>Greetings, My name is Tom and Welcome to my personal profile</h1>
+  <p>Hi, I’m Tom Bryant, a year 11 student at Sacred Heart college
+  who is currently studying computer science. For a project, I was
+  tasked with programming a website about Social media use in
+  New Zealand today.
+  </p>
 
-<h1>Greetings, My name is Tom and Welcome to my personal profile</h1>
-<p>Hi, I’m Tom Bryant, a year 11 student at Sacred Heart college who is currently studying computer science. For a project, I was tasked with programming a website about Social media use in New Zealand today.
-.</p>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: 50px;
-}
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 50px;
+  }
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  top: 50%;
-  margin: 50px;
-  color: red;
-  font-size: 35px;
-}
+  .prev, .next {
+    cursor: pointer;
+    top: 50%;
+    margin: 50px;
+    color: red;
+    font-size: 35px;
+  }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-
+</div>
 
 
 
@@ -72,25 +75,21 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">2 / 5</div>
   <img src="static/TB2205025.jpg" style="width:25%">
-  <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 5</div>
   <img src="static/TB2205024.jpg" style="width:25%">
-  <div class="text">Caption Three</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 5</div>
   <img src="static/TB2205023.jpg" style="width:25%">
-  <div class="text">Caption Three</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">5 / 5</div>
   <img src="static/TB2205022.jpg" style="width:25%">
-  <div class="text">Caption Three</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -132,6 +131,19 @@ function showSlides(n) {
   
 </script>
 
+<div class="image-container">
+  <h1>In My free time I enjoy playing golf</h1>
+   <img src="static/golf_photo.jpg" style="width:25%">
+</div>
+  
+<div class="image-container">
+  <div class="row">
+    <div class="col-sm-4">
+    <h2> I also enjoy playing video games.</h2>
+      <img src="static/videogameimage.jpg" style="width:25%">
+    </div>
+
 
 </body>
 </html>
+
