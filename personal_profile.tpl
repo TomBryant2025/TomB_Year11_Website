@@ -11,17 +11,22 @@
       <a href="/What is problematic social media use">About</a>
       <a href="/Digital Wellbeing issues affecting New Zealand teens">Contact</a>
       <a href="/Impacts and solutions">Contact</a>
-  </nav>
 
-
-<div class="content-row">
-
+      
   <h1>Greetings, My name is Tom and Welcome to my personal profile</h1>
   <p>Hi, I’m Tom Bryant, a year 11 student at Sacred Heart college
   who is currently studying computer science. For a project, I was
   tasked with programming a website about Social media use in
   New Zealand today.
   </p>
+
+  </nav>
+
+
+
+
+
+<div class="content-row">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -132,16 +137,12 @@ function showSlides(n) {
 </script>
 
 <div class="image-container">
-  <h1>In My free time I enjoy playing golf</h1>
    <img src="static/golf_photo.jpg" style="width:25%">
 </div>
   
 <div class="image-container">
-  <div class="row">
-    <div class="col-sm-4">
-    <h2> I also enjoy playing video games.</h2>
       <img src="static/videogameimage.jpg" style="width:25%">
-    </div>
+</div>
 
 
 </body>

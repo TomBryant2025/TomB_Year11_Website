@@ -91,25 +91,19 @@ img {
 
 
 .image-container {
- display: flex;
-  flex-direction: row;  /* Ensures row alignment */
-  justify-content: flex-start; /* Aligns them to the left side */
-  align-items: flex-end; /* Keeps the bottom of the items aligned nicely */
-  gap: 30px;            /* Adds clean spacing between each card */
-  margin-top: 20px;
+    grid-template-columns: 100% 33%;
+    align-items: center;
 }
 
 /* This styles each individual group (Text + Image) */
-.profile-card {
-  display: flex;
-  flex-direction: column; /* Keeps text above its respective image */
-  align-items: center;    /* Centers the content inside the card */
-  max-width: 250px;       /* Keeps each card a uniform size */
-}
 
 /* Keeps your images responsive and preserves your rounded corners */
 .rounded-img {
   width: 100%;
   height: auto;
   border-radius: 40px;    /* Matches your pill/oval shape */
+}
+
+div {
+  display: flex;
 }
