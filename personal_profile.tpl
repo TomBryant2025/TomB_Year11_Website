@@ -72,27 +72,27 @@
 
 <div class="slideshow-container">
 
-<div class="mySlides fade">
+<div class="mySlides-fade">
   <div class="numbertext">1 / 5</div>
   <img src="static/TB2205026.jpg" style="width:25%">
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides-fade">
   <div class="numbertext">2 / 5</div>
   <img src="static/TB2205025.jpg" style="width:25%">
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides-fade">
   <div class="numbertext">3 / 5</div>
   <img src="static/TB2205024.jpg" style="width:25%">
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides-fade">
   <div class="numbertext">4 / 5</div>
   <img src="static/TB2205023.jpg" style="width:25%">
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides-fade">
   <div class="numbertext">5 / 5</div>
   <img src="static/TB2205022.jpg" style="width:25%">
 </div>
@@ -101,6 +101,7 @@
 <a class="next" onclick="plusSlides(1)">❯</a>
 
 </div>
+
 <br>
 
 
@@ -136,12 +137,14 @@ function showSlides(n) {
   
 </script>
 
-<div class="image-container">
-   <img src="static/golf_photo.jpg" style="width:25%">
-</div>
+<div class="seperate">
+  <div class="image-container">
+     <img src="static/golf_photo.jpg" style="width:25%">
+  </div>
   
-<div class="image-container">
+  <div class="image-container">
       <img src="static/videogameimage.jpg" style="width:25%">
+  </div>
 </div>
 
 

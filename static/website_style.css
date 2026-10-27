@@ -11,12 +11,9 @@ p {
 
 
 .carousel-container {
-  position: relative;
-  width: 80%;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
-  height: 300px;
+  width: 5000px;
+  margin: 5000px;
+  height: 5000px;
 }
 
 .carousel-track {
@@ -27,8 +24,8 @@ p {
 
 .carousel-slide {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 30;
+  left: 30;
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -108,4 +105,15 @@ div {
   display: flex;
   height: auto;
   width: auto;
+}
+
+.seperate {
+    width: 5000px;
+    margin-top: 125px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.myslides-fade {
+  height: auto;
 }
