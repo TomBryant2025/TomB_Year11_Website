@@ -114,6 +114,7 @@ div {
     margin-left: 20px;
 }
 
-.myslides-fade {
+.mySlides-fade {
   height: auto;
+  width: auto;
 }
