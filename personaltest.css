@@ -1,0 +1,111 @@
+body {
+  background: #FFFFFF;
+  background: linear-gradient(90deg,rgba(255, 255, 255, 1) 33%, rgba(0, 0, 255, 0.7) 100%);
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
+}
+p {
+  color: rgb(0, 0, 0);
+}
+
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  height: 300px;
+}
+
+.carousel-track {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #fff;
+}
+
+/* Show the active slide */
+.carousel-slide.active {
+  opacity: 1;
+}
+
+/* Buttons styling */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+
+
+}
+
+nav a {
+    color: rgb(255, 11, 11);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+nav {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background: #0000FF;
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.7) 33%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 900px;
+    padding: 15px;
+    height: 50px;
+    
+}
+
+
+img { 
+    border-radius: 75px;
+}
+
+
+.image-container {
+    grid-template-columns: 100%;
+    align-items: center;
+}
+
+/* This styles each individual group (Text + Image) */
+
+/* Keeps your images responsive and preserves your rounded corners */
+.rounded-img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px;    /* Matches your pill/oval shape */
+}
+
+div {
+  display: flex;
+  height: auto;
+  width: auto;
+}
