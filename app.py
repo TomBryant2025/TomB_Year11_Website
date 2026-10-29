@@ -2,9 +2,9 @@ from bottle import Bottle, run, route, template, view, static_file
 
 # ROUTES FOR PAGES
 
-app = Bottle(__name__)
+app = Bottle()
 
-@app.route('/')
+@route('/')
 @view('personal_profile') # Uses views/personal_profile.tpl
 def personal_profile():
     return {} # Dictipnary for template variables if needed
