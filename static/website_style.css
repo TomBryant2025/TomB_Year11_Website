@@ -98,8 +98,7 @@ img {
 .rounded-img {
   width: 100%;
   height: auto;
-  border-radius: 40px;    /* Matches your pill/oval shape */
-}
+  border-radius: 40px;
 
 div {
   display: flex;
